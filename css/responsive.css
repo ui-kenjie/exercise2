@@ -1,0 +1,236 @@
+/* ===========================
+   ====== Media Queries ====== 
+   =========================== */
+
+@media screen and (max-width: 1200px) {
+
+   
+  
+   .nav-menu a.nav-link {
+      padding: 5px 8px;
+  }
+
+}
+
+
+@media screen and (max-width: 990px) {
+
+
+   .form-tablet {
+      display: block !important;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 40px;
+   }
+   .form-large {
+     display: none;
+   }
+   .footer-social {
+   text-align: center;
+   margin-bottom: 22px;
+   }
+   .footer-logo-1 {
+      display: none;
+   }
+   .footer-logo-2 {
+      display: block !important;
+      text-align: center;
+   }
+
+   .nav-large {
+      display: none !important;
+   }
+   .nav-small {
+      display: block !important;;
+   }
+   nav.nav-small .container {
+      padding: 0;
+  }
+   .services-section .row .col-lg, .price-section .row .col-lg {
+      width: 47%;
+      border: 0;
+
+  }
+  .services-section .row , .price-section .row  {
+  justify-content: center;
+
+}
+  .services-section .col-lg.text-center:first-child {
+   border-left: 0;
+}
+   .services-section .row .col-lg:nth-child(1), .services-section .row .col-lg:nth-child(3) {
+      border-right: 1px solid #6e6e6e;
+  }
+  
+  .display-tablet {
+     display: block;
+     padding-bottom: 20px;
+  }
+  .display-tablet img {
+   width: 100%;
+   margin-bottom: 30px;
+   box-shadow: 0 20px 10px #adadad70;
+}
+  .display-large {
+   display: none;
+}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1365px) {
+   
+   /* .xl-menu li.nav-item a.nav-link {
+      padding: 5px 8px;
+  } */
+  .hero-banner .carousel-caption {
+   width: 500px;
+}
+
+
+}
+
+@media screen and (max-width: 1024px)  {
+   ul.feature-desc li:before {
+      left: 20px  ;
+   }
+   .footer-section .text-white.mt-5.pt-5.ml-3, .footer-section  .col-xl.pl-4.pr-4 {
+      padding: 30px 0 !important;
+      margin: 0 !important;
+   }
+}
+
+@media screen and (max-width: 768px) {
+
+   
+
+
+   .footer-section {
+      padding: 0 20px;
+  }
+   .footer-social {
+      text-align: center;
+      margin-bottom: 22px;
+  }
+  form.bg-grey3 {
+   margin: 0 20% !important;
+}
+   .xl-menu {
+      display: none;
+  }
+  ul.pagination li.page-item a.page-link {
+   padding: 15px 20px;
+}
+.services-section .col-lg.text-center:first-child {
+   border-left: 1px solid #ffffff00;
+}
+.services-section .col-lg.text-center {
+   padding: 10px;
+   border-right: 1px solid #ffffff00;
+}
+.hero-banner .carousel-caption {
+   top: 40%;
+   width: 100%;
+}
+/* div.navbar-toggleable-xs.collapse {
+   position: fixed;
+   left: 0;
+   width: 200px;
+   height: 100vh;
+   z-index: 999;
+   top: 0;
+   background: rgb(0 0 0 / 87%);
+}
+div.navbar-toggleable-xs.collapse ul.md-menu {
+   display: block;
+   padding: 30% 5%;
+} */
+.w-50, .w-75 {
+   width: 100% !important;
+}
+ul.gallery-list {
+   column-count: 2;
+}
+}
+
+
+@media screen and (min-width: 667px) {
+   form .row div:last-child {
+      padding-left: 5px;
+  }
+  form .row div:first-child {
+      padding-right: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+   .phone-cta {
+      position: absolute;
+      top: 0;
+      right: 100px;
+  }
+   .phone-cta img {
+      margin: 0;
+      height: 38px;
+  }
+   .services-section .row .col-lg, .price-section .row .col-lg {
+      width: 100%;
+      border: 0;
+  }
+   form.bg-grey3 {
+      margin: 0 20px !important;
+  }
+   .myGallery.container ul.pagination li a {
+      border-radius: 0 !important;
+  }
+  .myGallery.container ul.pagination {
+      display: block;
+  }
+  .about-section img, .feature-section img {
+   width: 100%;
+   margin-top: 20px;
+   object-fit: contain;
+}
+.pl-5, .px-5, .p-5 {
+   padding-left: 20px !important;
+}
+.pr-5, .px-5, .p-5 {
+   padding-right: 10px !important;
+}
+ul.gallery-list {
+   column-count: 1;
+}
+.hero-banner .carousel-item img {
+   min-height: 350px;
+}
+span.first-heading, span.secondary-heading {
+   font-size: 28px !important;
+}
+.m-3 {
+   margin: 5px !important;
+}
+.services-section .row .col-lg:nth-child(1), .services-section .row .col-lg:nth-child(3) {
+   border-right: 0px solid #6e6e6e;
+}
+.gallery-images ol.carousel-indicators li img {
+   width: 50px !important;
+   object-fit: contain;
+}
+a.carou-control {
+   display: none;
+}
+.footer-section .row .footer-social a {
+   margin: 2px !important;
+}
+.footer-section .row {
+   padding: 0 !important;
+}
+.footer-section {
+   padding: 0;
+}
+.footer-section .container-fluid {
+   padding: 20px 15px;
+}
+
+
+
+}

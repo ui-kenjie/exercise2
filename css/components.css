@@ -1,0 +1,67 @@
+/* ===========================
+   ======= Buttons ======== 
+   =========================== */
+
+button {
+	 border-radius: 20px;
+    background: #b88b58;
+    color: #fff;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    border: none;
+}
+
+button:hover {
+  background-color: #000;
+}
+
+
+/* ===========================
+   ========= Headings ======== 
+   =========================== */
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+h6 {font-size: 1em}		/* 14px */
+
+h1 {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	line-height: 1.1;
+	margin-bottom: .8em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ===========================
+   ======= Anchor style ====== 
+   =========================== */
+a {
+	outline: 0;
+}
+
+a img {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+.mw {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}

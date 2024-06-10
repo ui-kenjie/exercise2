@@ -1,0 +1,76 @@
+
+
+/* ===========================
+   ======= Body style ======== 
+   =========================== */
+   
+body {
+	background: #f7f7f7;
+	font-size: 87.5%; /* Base font size: 14px */
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.429;
+	}
+	
+.bg-dark {
+		background: #121212 !important;
+	}	
+.container, .container-fluid {
+	padding: 20px;;
+}
+
+.main-container {
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+.carousel-item {
+    transition: 0.5s all ease-in-out;
+}
+ol.carousel-indicators li.active {
+    background: #b88b58;
+}
+ol.carousel-indicators li {
+    background: #b88b5800;
+    border: 1px solid #b88b58;
+    border-radius: 100px;
+    height: 14px;
+    width: 14px;
+    opacity: 1;
+}
+
+
+.nav-items ul li {
+    padding: 6px;
+}
+.nav-items {
+    position: absolute;
+    z-index: 999;
+    top: 77px;
+    background: rgb(0 0 0 / 90%);
+    right: 0;
+    width: 300px;
+    padding: 30px 30px 20px;
+}
+.modal-body input {
+    margin-top: 10px;
+    border-radius: 0 !important;
+    border-width: 0 0 2px;
+    padding: 0;
+}
+.location-section .container-fluid {
+    padding: 0;
+}
+
+.display-tablet {
+    display: none;
+ }
+.back-to-top {
+    position: relative;
+}
+.back-to-top img {
+    position: absolute;
+    left: 20px;
+    top: -35px;
+    z-index: 999;
+    cursor: pointer;
+}
+   
